@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO OF PRIYANSHU SHARMA</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+
+      header {
+        background-color: #262323;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fbf8dc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 5px;
+      }
+
+      nav {
+        border-radius: 30px;
+        text-align: center;
+        background-color: #7199ef;
+        padding: 10px;
+      }
+
+      nav a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+
+      #about-me {
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+      }
+
+      .profile-info {
+        flex: 1;
+      }
+
+      .profile-info h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      .profile-photo {
+        flex: 1;
+        text-align: right;
+      }
+
+      .profile-photo img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      /* for footers */
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      .social a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+
+      .social a:hover {
+        text-decoration: underline;
+      }
+
+      h2:hover{
+        font-size: 30px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .profile-info,
+        .profile-photo {
+          text-align: center;
+          width: 100%;
+        }
+        .profile-photo img {
+          width: 100%;
+          max-width: 200px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+ 
+<!-- This is a header to display the text on top of the portfolio -->
+    <header>
+      <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">PRIYANSHU SHARMA</h1>
+      <h2>Web Developer</h2>
+    </header>
+
+    <nav style="margin-top: 5px">
+      <a href="#about-me">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+    </nav>
+
+    <section id="about-me">
+      <div class="profile-info">
+        <h2>Hi, I am Priyanshu Sharma</h2>
+        <p>A 4th-year Btech CSE student and a passionate web developer.</p>
+      </div>
+      <div class="profile-photo">
+        <img src="images/Portfolio pic.jpeg" alt="Passport Size Photo" />
+      </div>
+    </section>
+
+    <!-- Education section is done in unoredered list as said in the assignment -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>B.Tech in Computer Science & Engineering - 9.2 CGPA</li>
+        <li>Higher Secondary Education (CBSE) - 83%</li>
+        <li>Secondary Education (ICSE) - 84%</li>
+      </ul>
+    </section>
+
+    <!-- skills section is done in ordered list as said in the assignment -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React Js</li>
+        <li>C++</li>
+        <li>Java</li>
+      </ol>
+    </section>
+
+
+    <!-- footer section for creating copyright notice and social media links -->
+    <footer>
+      <div class="social">
+        <p>
+          &copy; 2024 Priyanshu Sharma | Connect with me on
+          <br>
+          <a
+            href="https://www.linkedin.com/in/priyanshu-sharma-552104239/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a
+            href="https://6519512499e6aa3f2a413145--cute-dusk-6fc026.netlify.app/"
+            target="_blank"
+            >Portfolio</a
+          >|
+         <a href="https://github.com/Priyanshu-792" target="_blank"
+            >GitHub</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
